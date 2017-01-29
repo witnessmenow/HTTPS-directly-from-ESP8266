@@ -4,6 +4,8 @@
 //Include the SSL client
 #include <WiFiClientSecure.h>
 
+char ssid[] = "XXXX";       // your network SSID (name)
+char password[] = "YYYY";  // your network key
 
 //Add a SSL client
 WiFiClientSecure client;
